@@ -1,0 +1,10 @@
+---
+- hosts: frontend
+  become: true
+  roles:
+    - role: frontend
+      vars:
+        backend1_private_ip: 10.0.1.10
+        backend2_private_ip: 10.0.1.11
+        backup_backend_private_ip: 10.0.1.12
+
