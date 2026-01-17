@@ -2,17 +2,13 @@
 .terraform/
 *.tfstate
 *.tfstate.*
+*.tfvars
 .terraform.lock.hcl
 
-# Variables
-*.tfvars
-
-# Keys
+# SSH keys
 *.pem
 *.key
 
-# Ansible
-*.retry
-
-# OS / Editor
+# OS files
 .DS_Store
+
